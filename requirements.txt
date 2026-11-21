@@ -1,0 +1,5 @@
+# Common dependencies (each project uses a subset)
+numpy
+scipy
+matplotlib
+# pocketsphinx is optional for the Claude formant checker
