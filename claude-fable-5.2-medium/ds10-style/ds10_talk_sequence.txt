@@ -1,0 +1,197 @@
+KORG DS-10 style sequence  BPM 250  (1 step = 16th = 60 ms)
+TEXT: Hello. I am Claude. I am an A.I. Now I live in a KORG D S ten. I only have two voices. Nice to meet you.
+KAOSS X = EG INT (SMOOTH), KAOSS Y = VCO BALANCE (HOLD) on both synths; values 0..11
+X grid Hz SYN1: [198, 229, 261, 302, 344, 398, 454, 525, 599, 692, 790, 913]
+X grid Hz SYN2: [734, 879, 1037, 1242, 1465, 1755, 2071, 2481, 2927, 3506, 4137, 4955]
+
+SYN1 PATTERN 01
+ NOTE   --  --  B2  B2  B2  C3  C3  D3  D3  D3  D3  D3  --  --  --  C3
+ GATE  off off LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG off off off LEG
+ VOL     0   0   5   8   8   7   7  10  10  10   9   9   0   0   0  11
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       7   7   7   7   7   5   5   6   6   6   3   3  10  10  10  10
+ Y       0   0  11   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN1 PATTERN 02
+ NOTE   C3  C3  C3  B2  B2 A#2 A#2 C#3 C#3 C#3 C#3  C3  C3  C3  C3  C3
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL    11  10  10  11  11   5   5   0   2   7   7  11  11  11  11  11
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X      10   5   5   9   9   2   2   5   5   5   5   8   8   8   8   8
+ Y       0   0   0   0   0   0   0   0  11   0   0   0   0   0   0   0
+
+SYN1 PATTERN 03
+ NOTE   G2  G2  --  --  --  B2  B2  B2  B2  B2 A#2 A#2 A#2  B2  B2  D3
+ GATE  LEG LEG off off off LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL     3   4   0   0   0  11  11  10  11  11   5   5   8   5   5  10
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       0   5  10  10  10  10  10   5   9   9   2   2   7   2   2   6
+ Y       0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN1 PATTERN 04
+ NOTE   D3  D3  D3  B2  B2  B2  B2  B2  --  --  --  B2  B2 C#3 C#3 C#3
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG off off off LEG LEG LEG LEG LEG
+ VOL    10   9   9  11  11  11  10  10   0   0   0   5   5  11  11  10
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       6   2   2  10  10  10   5   5   2   2   2   2   2  10  10   6
+ Y       0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN1 PATTERN 05
+ NOTE  C#3  B2  B2  B2  B2  B2  C3  C3  B2  B2  B2 A#2 A#2 A#2 A#2 C#3
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL    10  11  11  10   7   7  10  10   6  10  10   5   5   8   8   0
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       6  10  10   5   5   5   5   5   2   5   5   2   2   7   7   8
+ Y       0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN1 PATTERN 06
+ NOTE  C#3 C#3 C#3 C#3  C3  C3  C3 A#2 A#2  --  --  C3  C3  D3  D3  D3
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG off off LEG LEG LEG LEG LEG
+ VOL     2  11  11  11   7   7   7   3   4   0   0   2   6   9   9   9
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       8   8   8   8   5   5   5   0   4   0   0   0   2   2   2   2
+ Y      11   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN1 PATTERN 07
+ NOTE   D3  --  -- C#3 C#3 C#3  C3  C3  C3  --  --  C3  C3  C3  B2  B2
+ GATE  LEG off off LEG LEG LEG LEG LEG LEG off off LEG LEG LEG LEG LEG
+ VOL     9   0   0  10  10  10   0   0   4   0   0   0   2   5  10  10
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       2   7   7   7   7   7   2   2   7   7   7   7   7   7   7   7
+ Y       0   0   0   0   0   0   0   0   0   0   0   0  11   0   0   0
+
+SYN1 PATTERN 08
+ NOTE   B2  G2  G2  G2  G2  --  --  --  B2  B2  B2  D3  D3  D3  C3  C3
+ GATE  LEG LEG LEG LEG LEG off off off LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL    10   5   5   5   5   0   0   0  11  11  10  10  10   9   5   5
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       7   2   2   2   2  10  10  10  10  10   5   6   6   3   2   2
+ Y       0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN1 PATTERN 09
+ NOTE   B2  B2  B2  B2  C3  C3  C3 A#2  D3  D3  D3  D3  D3  D3  B2  B2
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL     7   9   9   5  11  11  11   6   0   2   5   9   9   9   6   6
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       5   2   2   9   9   9   9   2   3   3   3   3   3   3   2   2
+ Y       0   0   0  11   0   0   0   0   0  11   0   0   0   0   0   0
+
+SYN1 PATTERN 10
+ NOTE   C3  C3  C3  C3 A#2 A#2 A#2 G#2 G#2  G2  G2  --  --  --  B2  B2
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG off off off LEG LEG
+ VOL    11  11  10  10   0   0   4  10  10   5   4   0   0   0   5   5
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       8   8   5   5   2   2   5   5   5   2   2   2   2   2   2   2
+ Y       0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN1 PATTERN 11
+ NOTE   D3  D3  D3  D3  C3  C3  C3  B2  B2  B2 A#2 A#2 A#2  C3  C3  C3
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL    11  11  10  10   0   0   4   0   2   5   8   5   5   9   9   9
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X      10  10   5   5   2   2   7   7   7   7   7   2   2   2   2   2
+ Y       0   0   0   0   0   0   0   0  11   0   0   0   0   0   0   0
+
+SYN1 PATTERN 12
+ NOTE  A#2 A#2  A2  G2  G2  G2  G2  G2  --  --  --  --  --  --  --  --
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG off off off off off off off off
+ VOL     0   0   7   9   9   9   9   9   0   0   0   0   0   0   0   0
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       3   3   2   3   3   3   3   3   7   7   7   7   7   7   7   7
+ Y       0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN2 PATTERN 01
+ NOTE   --  --  B2  B2  B2  C3  C3  D3  D3  D3  D3  D3  --  --  --  C3
+ GATE  off off LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG off off off LEG
+ VOL     0   0   7   7   7   4   4   9   9   9   8   8   0   0   0  10
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       4   4   4   4   4   2   2   1   1   1   1   1   3   3   3   3
+ Y       0   0  11   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN2 PATTERN 02
+ NOTE   C3  C3  C3  B2  B2 A#2 A#2 C#3 C#3 C#3 C#3  C3  C3  C3  C3  C3
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL    10  10  10  10  10   2   2   0  10   4   4  10  10  10  10  10
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       3   6   6   5   5   2   2   5   5   2   2   1   1   1   1   1
+ Y       0   0   0   0   0   0   0  11  11   0   0   0   0   0   0   0
+
+SYN2 PATTERN 03
+ NOTE   G2  G2  --  --  --  B2  B2  B2  B2  B2 A#2 A#2 A#2  B2  B2  D3
+ GATE  LEG LEG off off off LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL     0   2   0   0   0  10  10  10  10  10   2   2   7   2   2  10
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       5   5   3   3   3   3   3   6   5   5   2   2   4   4   4   7
+ Y       0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN2 PATTERN 04
+ NOTE   D3  D3  D3  B2  B2  B2  B2  B2  --  --  --  B2  B2 C#3 C#3 C#3
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG off off off LEG LEG LEG LEG LEG
+ VOL    10  10  10  10  10  10  10  10   0   0   0   2   2  10  10   9
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       7   8   8   3   3   3   6   6   4   4   4   4   4   3   3   2
+ Y       0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN2 PATTERN 05
+ NOTE  C#3  B2  B2  B2  B2  B2  C3  C3  B2  B2  B2 A#2 A#2 A#2 A#2 C#3
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL     9  10  10  10   4   4  10   1   1  10  10   2   2   7   7   0
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       2   3   3   6   2   2   6   6   1   6   6   4   4   4   4   5
+ Y       0   0   0   0   0   0   0   0   6   0   0   0   0   0   0  11
+
+SYN2 PATTERN 06
+ NOTE  C#3 C#3 C#3 C#3  C3  C3  C3 A#2 A#2  --  --  C3  C3  D3  D3  D3
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG off off LEG LEG LEG LEG LEG
+ VOL     1  10  10  10   5   5   5   0   5   0   0   0   6  10  10  10
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       5   1   1   1   3   3   3   5   5   8   8   8   8   8   8   8
+ Y      11   0   0   0   0   0   0   0   8   0   0   0   6   0   0   0
+
+SYN2 PATTERN 07
+ NOTE   D3  --  -- C#3 C#3 C#3  C3  C3  C3  --  --  C3  C3  C3  B2  B2
+ GATE  LEG off off LEG LEG LEG LEG LEG LEG off off LEG LEG LEG LEG LEG
+ VOL    10   0   0  10  10   1   9   9   1   0   0   0   9   1  10  10
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       8   6   6   6   6   6  11  11  11  10  10  10  10  10   6   6
+ Y       0   0   0   0   0   0  11  11  11   0   0  11  11  11   0   0
+
+SYN2 PATTERN 08
+ NOTE   B2  G2  G2  G2  G2  --  --  --  B2  B2  B2  D3  D3  D3  C3  C3
+ GATE  LEG LEG LEG LEG LEG off off off LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL    10   2   2   2   2   0   0   0  10  10  10   9   9   8   2   2
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       6   4   4   4   4   3   3   3   3   3   6   1   1   1   4   4
+ Y       0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+
+SYN2 PATTERN 09
+ NOTE   B2  B2  B2  B2  C3  C3  C3 A#2  D3  D3  D3  D3  D3  D3  B2  B2
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL     4  10  10   7  10  10   1   1   0   9   1   8   8   8   4   4
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       2   8   8   5   5   5   5   1  10  10  10   1   1   1   1   1
+ Y       0   0   0  11   0   0   0   6  11  11  11   0   0   0   6   6
+
+SYN2 PATTERN 10
+ NOTE   C3  C3  C3  C3 A#2 A#2 A#2 G#2 G#2  G2  G2  --  --  --  B2  B2
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG off off off LEG LEG
+ VOL    10  10  10   1   9   9   1  10   1   7   1   0   0   0   2   2
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       1   1   6   6  11  11  11   6   6  11  11   4   4   4   4   4
+ Y       0   0   0   0  11  11  11   0   0  11  11   0   0   0   0   0
+
+SYN2 PATTERN 11
+ NOTE   D3  D3  D3  D3  C3  C3  C3  B2  B2  B2 A#2 A#2 A#2  C3  C3  C3
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG LEG
+ VOL    10  10  10   1   9   9   1   0   9   1   7   2   2  10  10  10
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       3   3   6   6  11  11  11  10  10  10   4   2   2   8   8   8
+ Y       0   0   0   0  11  11  11  11  11  11   0   0   0   0   0   0
+
+SYN2 PATTERN 12
+ NOTE  A#2 A#2  A2  G2  G2  G2  G2  G2  --  --  --  --  --  --  --  --
+ GATE  LEG LEG LEG LEG LEG LEG LEG LEG off off off off off off off off
+ VOL     0   5   6   8   8   8   8   8   0   0   0   0   0   0   0   0
+ PAN     C   C   C   C   C   C   C   C   C   C   C   C   C   C   C   C
+ X       9   9   7   1   1   1   1   1   4   4   4   4   4   4   4   4
+ Y      11  11   0   0   0   0   0   0   0   0   0   0   0   0   0   0
