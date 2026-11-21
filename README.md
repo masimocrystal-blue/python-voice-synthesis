@@ -2,7 +2,7 @@
 
 日本語 | English
 
-> Work-in-progress task branch: the WAV/PNG and full source bundle are prepared, but binary assets have not yet been committed. The default branch is unchanged.
+> The three demos and their source files are available on the default branch.
 
 ## 日本語
 
@@ -14,7 +14,7 @@ Pythonによる音声合成実験3本。音声、音声合成コード、シー�
 | Claude Fable 5.2 (Medium) | KORG DS-10相当の2シンセ・16分音符シーケンサー制約 | ds10_talk.wav / 11.52秒 |
 | GPT-6.2 Astra (Ultra) | DS-10相当の2シンセ構成、譜面から再生成 | DS10_voice.wav / 10.00秒 |
 
-### 予定ディレクトリ
+### ディレクトリ構成
 
 - `claude-fable-5.2-medium/klatt-formant/`：自作フォルマント合成器、音源、途中の比較資料
 - `claude-fable-5.2-medium/ds10-style/`：制約付き2シンセ、音源、シーケンス

@@ -1,5 +1,5 @@
 897df3377e0353f99ad1237ea7b03477b2e7e92c591b0233e76046bfc8153e52  .gitignore
-ec5c757ab549709ed7a2870e18b6ac754bdb035a97588b6e3db4e59f4aca74e5  README.md
+8ca99a2950d8a3036dc0d18dd57de8fc4d96526e90cb5203f20d1b2c3ef6f399  README.md
 f7255d5390e0a2f7e069cf7450939c2679262a04af6c0c4c0dc5b3b260367dcc  claude-fable-5.2-medium/ds10-style/README.txt
 b8da2671e5b990eb4015f5b1e334441994d2ebeba657b18850c2733cdc0d94d2  claude-fable-5.2-medium/ds10-style/ds10_talk.py
 5b6b9b4b11dbbeaeab35016dc3cdf4ab4f83a11476ffe4b99bcea851175e3b19  claude-fable-5.2-medium/ds10-style/ds10_talk.wav
